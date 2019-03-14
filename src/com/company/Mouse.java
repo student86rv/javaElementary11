@@ -4,8 +4,8 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 
 public class Mouse extends Shape {
-    public Mouse(GraphicsContext gc, double x, double y) {
-        super(gc, x, y);
+    public Mouse(Board board, GraphicsContext gc, double x, double y) {
+        super(board, gc, x, y);
     }
 
     @Override

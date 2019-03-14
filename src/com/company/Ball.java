@@ -5,8 +5,8 @@ import javafx.scene.paint.Color;
 
 public class Ball extends Shape {
 
-    public Ball(GraphicsContext gc, double x, double y) {
-        super(gc, x, y);
+    public Ball(Board board, GraphicsContext gc, double x, double y) {
+        super(board, gc, x, y);
     }
 
     @Override
